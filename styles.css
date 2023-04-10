@@ -1,0 +1,17 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+
+div {
+  background-color: #4caeff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+button {
+  background-color: hotpink;
+  padding: 0.5em;
+}
